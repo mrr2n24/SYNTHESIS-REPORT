@@ -4890,7 +4890,7 @@ var PDFViewerApplication = {
   },
 
   setTitle: function pdfViewSetTitle(title) {
-    document.title = 'holita';
+    document.title = title;
   },
 
   close: function pdfViewClose() {
