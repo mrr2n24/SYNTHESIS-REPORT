@@ -89,10 +89,10 @@
 }
 
 .exit-icon {
-    width: 44px;
-    height: 44px;
-    border-radius: 44px;
-    margin-bottom: 22px;
+    width: 0px;
+    height: 0px;
+    border-radius: 0px;
+    margin-bottom: 0px;
     cursor: pointer;
     zoom: 0.8;
     background-repeat: no-repeat;
