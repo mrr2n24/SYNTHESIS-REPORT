@@ -77,7 +77,7 @@ var MagazineView = {
         MagazineView.magazineMode = true;
         MagazineView.oldScale = PDFViewerApplication.pdfViewer.currentScale;
         PDFViewerApplication.pdfViewer.currentScaleValue = 'page-fit';
-        $('#viewerContainer').after('<div id="magazineContainer"><div class="icon-holder"><div class="exit-icon" id="exitMagazineView" alt="Exit magazine mode"></div><div class="zoom-icon zoom-icon-in" alt="Zoom"></div></div><div id="magazine"><div ignore="1" class="next-button"></div><div ignore="1" class="previous-button" style="display: block;"></div></div></div>');
+        //$('#viewerContainer').after('<div id="magazineContainer"><div class="icon-holder"><div class="exit-icon" id="exitMagazineView" alt="Exit magazine mode"></div><div class="zoom-icon zoom-icon-in" alt="Zoom"></div></div><div id="magazine"><div ignore="1" class="next-button"></div><div ignore="1" class="previous-button" style="display: block;"></div></div></div>');
 
         MagazineView.currentPage = PDFViewerApplication.page;
 
