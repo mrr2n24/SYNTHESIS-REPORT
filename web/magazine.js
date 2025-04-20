@@ -233,7 +233,7 @@ var MagazineView = {
 
         $('#magazineContainer').css({
             width: width,
-            height: height - $('.toolbar').height()
+            height: '100%'//height - $('.toolbar').height()
         }).zoom('resize');
 
 
